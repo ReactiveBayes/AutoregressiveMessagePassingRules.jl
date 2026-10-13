@@ -30,7 +30,7 @@ MessagePassingRulesBase = "1"
 MessagePassingRulesTestUtils = "1"
 Pkg = "1.10"
 StableRNGs = "1"
-StatsFuns = "1"
+StatsFuns = "1, 2"
 Test = "1.10"
 TestItemRunner = "1"
 
