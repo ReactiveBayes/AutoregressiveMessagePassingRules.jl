@@ -37,6 +37,4 @@ import Pkg; Pkg.add("AutoregressiveMessagePassingRules")
 - Tests: `make test` runs the suite as CI does, ending with the rule-coverage gate: every rule
   must be selected by some test. `make test test_args="name:rules"` selects items by tag, by
   name or by file; `make help` lists the other targets.
-- Depends on MessagePassingRulesBase, on BayesBase,
-  ExponentialFamily and Distributions for the distributions, and on FastCholesky, LinearAlgebra
-  and StatsFuns. Julia 1.10 or later. MIT licence.
+- Julia 1.10 or later. MIT licence.
